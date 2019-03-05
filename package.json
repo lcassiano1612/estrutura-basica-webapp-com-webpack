@@ -12,6 +12,9 @@
     "js",
     "webpack"
   ],
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
   "dependencies": {
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
