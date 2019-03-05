@@ -1,11 +1,11 @@
 const path = require('path')
-const HTMLWebpackPlugin = require('html-webpack-plugin')
+const htmlWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
-
 module.exports = {
   mode: 'development',
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
+    watchContentBase: true,
     hot: true,
     port: 3340
   },
@@ -42,7 +42,7 @@ module.exports = {
     filename: '[name]-[hash].js'
   },
   plugins: [
-    new HTMLWebpackPlugin({
+    new htmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     }),
     new webpack.HotModuleReplacementPlugin()
