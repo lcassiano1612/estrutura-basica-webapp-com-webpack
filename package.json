@@ -2,7 +2,7 @@
   "name": "project-start-kit",
   "version": "1.0.0",
   "description": "Arquivos iniciais para iniciar uma aplicação utilizando tecnologias como PWA e Webpack.",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:lcassiano1612/project-start-kit.git",
   "author": "Lucas de Oliveira <l.cassiano1612@gmail.com>",
   "license": "MIT",
