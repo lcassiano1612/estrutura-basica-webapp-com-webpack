@@ -6,5 +6,15 @@
   "repository": "git@github.com:lcassiano1612/project-start-kit.git",
   "author": "Lucas de Oliveira <l.cassiano1612@gmail.com>",
   "license": "MIT",
-  "keywords": ["pwa", "webapp", "js", "webpack"]
+  "keywords": [
+    "pwa",
+    "webapp",
+    "js",
+    "webpack"
+  ],
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
 }
